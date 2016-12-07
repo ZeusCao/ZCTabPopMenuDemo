@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C3857AF21DF7DFA4003F7A30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C3857AF11DF7DFA4003F7A30 /* main.m */; };
+		C3857AF51DF7DFA4003F7A30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C3857AF41DF7DFA4003F7A30 /* AppDelegate.m */; };
+		C3857AF81DF7DFA4003F7A30 /* ZCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3857AF71DF7DFA4003F7A30 /* ZCViewController.m */; };
+		C3857AFB1DF7DFA4003F7A30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3857AF91DF7DFA4003F7A30 /* Main.storyboard */; };
+		C3857AFD1DF7DFA4003F7A30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3857AFC1DF7DFA4003F7A30 /* Assets.xcassets */; };
+		C3857B001DF7DFA4003F7A30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3857AFE1DF7DFA4003F7A30 /* LaunchScreen.storyboard */; };
+		C3857B0B1DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3857B0A1DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests.m */; };
+		C3857B161DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C3857B151DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests.m */; };
+		C3857B261DF7E4E5003F7A30 /* ZCListTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3857B251DF7E4E5003F7A30 /* ZCListTableViewCell.m */; };
+		C3857B291DF7E4F5003F7A30 /* ZCMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C3857B281DF7E4F5003F7A30 /* ZCMenuTableViewCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C3857B071DF7DFA4003F7A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3857AE51DF7DFA4003F7A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3857AEC1DF7DFA4003F7A30;
+			remoteInfo = ZCTabPopMenuDemo;
+		};
+		C3857B121DF7DFA4003F7A30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C3857AE51DF7DFA4003F7A30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C3857AEC1DF7DFA4003F7A30;
+			remoteInfo = ZCTabPopMenuDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C3857AED1DF7DFA4003F7A30 /* ZCTabPopMenuDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZCTabPopMenuDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3857AF11DF7DFA4003F7A30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C3857AF31DF7DFA4003F7A30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C3857AF41DF7DFA4003F7A30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C3857AF61DF7DFA4003F7A30 /* ZCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCViewController.h; sourceTree = "<group>"; };
+		C3857AF71DF7DFA4003F7A30 /* ZCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCViewController.m; sourceTree = "<group>"; };
+		C3857AFA1DF7DFA4003F7A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C3857AFC1DF7DFA4003F7A30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C3857AFF1DF7DFA4003F7A30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C3857B011DF7DFA4003F7A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3857B061DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCTabPopMenuDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3857B0A1DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCTabPopMenuDemoTests.m; sourceTree = "<group>"; };
+		C3857B0C1DF7DFA4003F7A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3857B111DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZCTabPopMenuDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3857B151DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZCTabPopMenuDemoUITests.m; sourceTree = "<group>"; };
+		C3857B171DF7DFA4003F7A30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3857B231DF7E48F003F7A30 /* ZCPublicHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZCPublicHeader.h; sourceTree = "<group>"; };
+		C3857B241DF7E4E5003F7A30 /* ZCListTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCListTableViewCell.h; sourceTree = "<group>"; };
+		C3857B251DF7E4E5003F7A30 /* ZCListTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCListTableViewCell.m; sourceTree = "<group>"; };
+		C3857B271DF7E4F5003F7A30 /* ZCMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZCMenuTableViewCell.h; sourceTree = "<group>"; };
+		C3857B281DF7E4F5003F7A30 /* ZCMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZCMenuTableViewCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C3857AEA1DF7DFA4003F7A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3857B031DF7DFA4003F7A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3857B0E1DF7DFA4003F7A30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C3857AE41DF7DFA4003F7A30 = {
+			isa = PBXGroup;
+			children = (
+				C3857AEF1DF7DFA4003F7A30 /* ZCTabPopMenuDemo */,
+				C3857B091DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests */,
+				C3857B141DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests */,
+				C3857AEE1DF7DFA4003F7A30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C3857AEE1DF7DFA4003F7A30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C3857AED1DF7DFA4003F7A30 /* ZCTabPopMenuDemo.app */,
+				C3857B061DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests.xctest */,
+				C3857B111DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C3857AEF1DF7DFA4003F7A30 /* ZCTabPopMenuDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C3857AF31DF7DFA4003F7A30 /* AppDelegate.h */,
+				C3857AF41DF7DFA4003F7A30 /* AppDelegate.m */,
+				C3857AF61DF7DFA4003F7A30 /* ZCViewController.h */,
+				C3857AF71DF7DFA4003F7A30 /* ZCViewController.m */,
+				C3857B241DF7E4E5003F7A30 /* ZCListTableViewCell.h */,
+				C3857B251DF7E4E5003F7A30 /* ZCListTableViewCell.m */,
+				C3857B271DF7E4F5003F7A30 /* ZCMenuTableViewCell.h */,
+				C3857B281DF7E4F5003F7A30 /* ZCMenuTableViewCell.m */,
+				C3857B231DF7E48F003F7A30 /* ZCPublicHeader.h */,
+				C3857AF91DF7DFA4003F7A30 /* Main.storyboard */,
+				C3857AFC1DF7DFA4003F7A30 /* Assets.xcassets */,
+				C3857AFE1DF7DFA4003F7A30 /* LaunchScreen.storyboard */,
+				C3857B011DF7DFA4003F7A30 /* Info.plist */,
+				C3857AF01DF7DFA4003F7A30 /* Supporting Files */,
+			);
+			path = ZCTabPopMenuDemo;
+			sourceTree = "<group>";
+		};
+		C3857AF01DF7DFA4003F7A30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C3857AF11DF7DFA4003F7A30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C3857B091DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				C3857B0A1DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests.m */,
+				C3857B0C1DF7DFA4003F7A30 /* Info.plist */,
+			);
+			path = ZCTabPopMenuDemoTests;
+			sourceTree = "<group>";
+		};
+		C3857B141DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C3857B151DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests.m */,
+				C3857B171DF7DFA4003F7A30 /* Info.plist */,
+			);
+			path = ZCTabPopMenuDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C3857AEC1DF7DFA4003F7A30 /* ZCTabPopMenuDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3857B1A1DF7DFA4003F7A30 /* Build configuration list for PBXNativeTarget "ZCTabPopMenuDemo" */;
+			buildPhases = (
+				C3857AE91DF7DFA4003F7A30 /* Sources */,
+				C3857AEA1DF7DFA4003F7A30 /* Frameworks */,
+				C3857AEB1DF7DFA4003F7A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZCTabPopMenuDemo;
+			productName = ZCTabPopMenuDemo;
+			productReference = C3857AED1DF7DFA4003F7A30 /* ZCTabPopMenuDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C3857B051DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3857B1D1DF7DFA4003F7A30 /* Build configuration list for PBXNativeTarget "ZCTabPopMenuDemoTests" */;
+			buildPhases = (
+				C3857B021DF7DFA4003F7A30 /* Sources */,
+				C3857B031DF7DFA4003F7A30 /* Frameworks */,
+				C3857B041DF7DFA4003F7A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3857B081DF7DFA4003F7A30 /* PBXTargetDependency */,
+			);
+			name = ZCTabPopMenuDemoTests;
+			productName = ZCTabPopMenuDemoTests;
+			productReference = C3857B061DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C3857B101DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C3857B201DF7DFA4003F7A30 /* Build configuration list for PBXNativeTarget "ZCTabPopMenuDemoUITests" */;
+			buildPhases = (
+				C3857B0D1DF7DFA4003F7A30 /* Sources */,
+				C3857B0E1DF7DFA4003F7A30 /* Frameworks */,
+				C3857B0F1DF7DFA4003F7A30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C3857B131DF7DFA4003F7A30 /* PBXTargetDependency */,
+			);
+			name = ZCTabPopMenuDemoUITests;
+			productName = ZCTabPopMenuDemoUITests;
+			productReference = C3857B111DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C3857AE51DF7DFA4003F7A30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "曹檑";
+				TargetAttributes = {
+					C3857AEC1DF7DFA4003F7A30 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					C3857B051DF7DFA4003F7A30 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3857AEC1DF7DFA4003F7A30;
+					};
+					C3857B101DF7DFA4003F7A30 = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C3857AEC1DF7DFA4003F7A30;
+					};
+				};
+			};
+			buildConfigurationList = C3857AE81DF7DFA4003F7A30 /* Build configuration list for PBXProject "ZCTabPopMenuDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C3857AE41DF7DFA4003F7A30;
+			productRefGroup = C3857AEE1DF7DFA4003F7A30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C3857AEC1DF7DFA4003F7A30 /* ZCTabPopMenuDemo */,
+				C3857B051DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests */,
+				C3857B101DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C3857AEB1DF7DFA4003F7A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3857B001DF7DFA4003F7A30 /* LaunchScreen.storyboard in Resources */,
+				C3857AFD1DF7DFA4003F7A30 /* Assets.xcassets in Resources */,
+				C3857AFB1DF7DFA4003F7A30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3857B041DF7DFA4003F7A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3857B0F1DF7DFA4003F7A30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3857AE91DF7DFA4003F7A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3857B261DF7E4E5003F7A30 /* ZCListTableViewCell.m in Sources */,
+				C3857AF81DF7DFA4003F7A30 /* ZCViewController.m in Sources */,
+				C3857AF51DF7DFA4003F7A30 /* AppDelegate.m in Sources */,
+				C3857AF21DF7DFA4003F7A30 /* main.m in Sources */,
+				C3857B291DF7E4F5003F7A30 /* ZCMenuTableViewCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3857B021DF7DFA4003F7A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3857B0B1DF7DFA4003F7A30 /* ZCTabPopMenuDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C3857B0D1DF7DFA4003F7A30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3857B161DF7DFA4003F7A30 /* ZCTabPopMenuDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C3857B081DF7DFA4003F7A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3857AEC1DF7DFA4003F7A30 /* ZCTabPopMenuDemo */;
+			targetProxy = C3857B071DF7DFA4003F7A30 /* PBXContainerItemProxy */;
+		};
+		C3857B131DF7DFA4003F7A30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C3857AEC1DF7DFA4003F7A30 /* ZCTabPopMenuDemo */;
+			targetProxy = C3857B121DF7DFA4003F7A30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C3857AF91DF7DFA4003F7A30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3857AFA1DF7DFA4003F7A30 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C3857AFE1DF7DFA4003F7A30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C3857AFF1DF7DFA4003F7A30 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C3857B181DF7DFA4003F7A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C3857B191DF7DFA4003F7A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C3857B1B1DF7DFA4003F7A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZCTabPopMenuDemo/ZCPublicHeader.h;
+				INFOPLIST_FILE = ZCTabPopMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCTabPopMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C3857B1C1DF7DFA4003F7A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = ZCTabPopMenuDemo/ZCPublicHeader.h;
+				INFOPLIST_FILE = ZCTabPopMenuDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCTabPopMenuDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C3857B1E1DF7DFA4003F7A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCTabPopMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCTabPopMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCTabPopMenuDemo.app/ZCTabPopMenuDemo";
+			};
+			name = Debug;
+		};
+		C3857B1F1DF7DFA4003F7A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZCTabPopMenuDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCTabPopMenuDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZCTabPopMenuDemo.app/ZCTabPopMenuDemo";
+			};
+			name = Release;
+		};
+		C3857B211DF7DFA4003F7A30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCTabPopMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCTabPopMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCTabPopMenuDemo;
+			};
+			name = Debug;
+		};
+		C3857B221DF7DFA4003F7A30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZCTabPopMenuDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.Zeuscao.ZCTabPopMenuDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZCTabPopMenuDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C3857AE81DF7DFA4003F7A30 /* Build configuration list for PBXProject "ZCTabPopMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3857B181DF7DFA4003F7A30 /* Debug */,
+				C3857B191DF7DFA4003F7A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3857B1A1DF7DFA4003F7A30 /* Build configuration list for PBXNativeTarget "ZCTabPopMenuDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3857B1B1DF7DFA4003F7A30 /* Debug */,
+				C3857B1C1DF7DFA4003F7A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3857B1D1DF7DFA4003F7A30 /* Build configuration list for PBXNativeTarget "ZCTabPopMenuDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3857B1E1DF7DFA4003F7A30 /* Debug */,
+				C3857B1F1DF7DFA4003F7A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C3857B201DF7DFA4003F7A30 /* Build configuration list for PBXNativeTarget "ZCTabPopMenuDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C3857B211DF7DFA4003F7A30 /* Debug */,
+				C3857B221DF7DFA4003F7A30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C3857AE51DF7DFA4003F7A30 /* Project object */;
+}
