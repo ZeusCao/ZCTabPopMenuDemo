@@ -264,13 +264,14 @@
     self.setOrderImg.image = [UIImage imageNamed:@"wemart_pull"];
     [UIView animateWithDuration:0.3 animations:^{
         self.orderTypeLayer.frame = CGRectMake(6.5, self.YSpace, KScreenWidth/2 - 14, 0);
-        self.orderTypeTabView.frame = CGRectMake(6.5, self.YSpace, KScreenWidth/2 - 14, 0) ;
-        self.orderTimeTabView.frame = CGRectMake(KScreenWidth/2 + 7.5, self.YSpace, KScreenWidth/2 - 14, 0);
+        self.orderTypeTabView.frame = CGRectMake(6.5, self.YSpace, KScreenWidth/2 - 14, 0);
         self.orderTimeLayer.frame = CGRectMake(KScreenWidth/2 + 7.5, self.YSpace, KScreenWidth/2 - 14, 0);
+        self.orderTimeTabView.frame = CGRectMake(KScreenWidth/2 + 7.5, self.YSpace, KScreenWidth/2 - 14, 0);
     } completion:^(BOOL finished) {
         [self.orderTimeTabView removeFromSuperview];
         [self.orderTypeTabView removeFromSuperview];
-    }];}
+    }];
+}
 
 #pragma mark --- orderFormTabView 代理方法 ---
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView
@@ -353,7 +354,6 @@
         
     }
     else{
-        // 收起下拉筛选菜单
         // 收起下拉筛选菜单
         if (self.isType) {
             [UIView animateWithDuration:0.3 animations:^{
